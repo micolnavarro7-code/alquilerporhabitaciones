@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    { "source": "/", "destination": "/habitaciones", "permanent": false }
-  ],
-  "rewrites": [
-    { "source": "/habitaciones", "destination": "/index.html" },
-    { "source": "/habitaciones/:path*", "destination": "/:path*" }
-  ]
-}
